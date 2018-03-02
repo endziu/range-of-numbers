@@ -6,6 +6,14 @@
   "scripts": {
     "test": "node ./tests/index.test.js"
   },
-  "author": "endziu",
+  "author": {
+    "name": "Andrzej Koper",
+    "email": "koper.andrzej@gmail.com",
+    "url": "https://github.com/endziu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/endziu/range-of-numbers.git"
+  },
   "license": "MIT"
 }
