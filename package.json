@@ -1,0 +1,11 @@
+{
+  "name": "range-of-numbers",
+  "version": "1.0.0",
+  "description": "A little module to generate an Array of integer values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/index.test.js"
+  },
+  "author": "endziu",
+  "license": "MIT"
+}

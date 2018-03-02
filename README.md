@@ -1,0 +1,19 @@
+# range-of-numbers
+A little module to generate an Array of integer values from <**startIndex**> to <**endIndex**> inclusive. With optional <**step**> amount.
+```js
+range(start, end[, step= 1]) =>  array
+```
+### Install
+```bash
+npm install range-of-numbers
+```
+### Usage
+```js
+// require
+const range = require('range-of-numbers')
+// and use
+range(0,10) //=> [0,1,2,3,4,5,6,7,8,9,10]
+range(-2,2) //=> [-2,-1,0,1,2]
+```
+## License
+MIT, see [LICENSE.md](http://github.com/endziu/range-of-numbers/blob/master/LICENSE.md) for details.
