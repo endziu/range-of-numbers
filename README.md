@@ -1,7 +1,8 @@
 # range-of-numbers
-A little module to generate an Array of integer values from <**startIndex**> to <**endIndex**> inclusive. With optional <**step**> amount.
+A little module to generate an Array of integer values from <**startIndex**> to <**endIndex**> inclusive. With optional non-negative <**step**> amount.
 ```js
-range(start, end[, step= 1]) =>  array
+// range: (n:Int, n:Int, n:Int > 0) -> [n]
+range(start, end[, step = 1]) =>  array
 ```
 ### Install
 ```bash
