@@ -15,5 +15,9 @@
     "type": "git",
     "url": "git://github.com/endziu/range-of-numbers.git"
   },
+  "homepage": "https://github.com/endziu/range-of-numbers",
+  "bugs": {
+    "url": "https://github.com/endziu/range-of-numbers/issues"
+  },
   "license": "MIT"
 }
