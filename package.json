@@ -4,14 +4,16 @@
   "description": "A little module to generate an Array of integer values.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./tests/index.test.js"
+    "test": ""
   },
   "keywords": [
     "range",
     "array",
     "fill",
     "list",
-    "int"
+    "int",
+    "numbers",
+    "values"
   ],
   "author": {
     "name": "Andrzej Koper",
