@@ -1,4 +1,4 @@
-const { range, rangePromise } = require('../index.js')
+const { range, rangePromise } = require('../range-of-numbers.min.js')
 
 rangePromise(0, 10000000).then(list => list.length).then(console.log)
 console.log(range(-10, 10, 2).length)

@@ -4,7 +4,8 @@
   "description": "A little module to generate an Array of integer values.",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "build": "rollup -c"
   },
   "keywords": [
     "range",
@@ -28,5 +29,14 @@
   "bugs": {
     "url": "https://github.com/endziu/range-of-numbers/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "rollup": "^0.56.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-babel-minify": "^4.0.0",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.3"
+  }
 }
