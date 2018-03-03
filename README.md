@@ -1,5 +1,5 @@
 # range-of-numbers
-A little module to generate an Array of integer values from <**startIndex**> to <**endIndex**> inclusive. With optional non-negative <**step**> amount. Also implemented using a promise for use with large arrays(maybe). Work in progress: changes frequently!
+A little module to generate an Array of integer values from <**startIndex**> to <**endIndex**> inclusive. With optional non-negative <**step**> amount. Also implemented using a promise for use with large arrays(maybe). Work in progress: changes frequently! works with node v.9.5.0
 
 
 ### Install
