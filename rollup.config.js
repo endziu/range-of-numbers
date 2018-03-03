@@ -7,7 +7,7 @@ import minify from 'rollup-plugin-babel-minify'
 export default {
   input: 'index.js',
   output: {
-    file: 'dist.js',
+    file: 'range-of-numbers.min.js',
     format: 'cjs'
   },
   legacy: false,
