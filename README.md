@@ -1,22 +1,25 @@
 # range-of-numbers
-A little module to generate an Array of integer values from <**startIndex**> to <**endIndex**> inclusive. With optional non-negative <**step**> amount.
-```js
-// range: (n:Int, n:Int, n:Int > 0) -> [n]
-range(start, end[, step = 1]) =>  array
-```
+A little module to generate an Array of integer values from <**startIndex**> to <**endIndex**> inclusive. With optional non-negative <**step**> amount. Also implemented using a promise for use with large arrays(maybe). Work in progress: changes frequently!
+
+
 ### Install
 ```bash
 npm install range-of-numbers
 ```
 ### Usage
 ```js
-// require
-const range = require('range-of-numbers')
-// and use
-range(0,10)   //=> [0,1,2,3,4,5,6,7,8,9,10]
-range(-2,2)   //=> [-2,-1,0,1,2]
-range(0,6,2)  //=> [0,2,4,6]
-range(15,0,3) //=> [15,12,9,6,3,0]
+const { range, rangePromise } = require('../lib/index.js')
+
+rangePromise(0, 10000000).then(list => list.length).then(console.log)
+console.log(range(-10, 10, 2).length)
+console.log(range(10, 100, 3).length)
+console.log(range(-100, 310, 7).length)
+console.log(range(11, 410, 13).length)
+// => 11
+// => 31
+// => 59
+// => 31
+// => 10000001
 ```
 ## License
 MIT, see [LICENSE.md](http://github.com/endziu/range-of-numbers/blob/master/LICENSE.md) for details.
