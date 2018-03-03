@@ -8,7 +8,7 @@ npm install range-of-numbers
 ```
 ### Usage
 ```js
-const { range, rangePromise } = require('../lib/index.js')
+const { range, rangePromise } = require('range-of-numbers')
 
 rangePromise(0, 10000000).then(list => list.length).then(console.log)
 console.log(range(-10, 10, 2).length)
