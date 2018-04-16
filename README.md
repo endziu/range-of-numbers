@@ -10,16 +10,11 @@ npm install range-of-numbers
 ```js
 const { range, rangePromise } = require('range-of-numbers')
 
-rangePromise(0, 10000000).then(list => list.length).then(console.log)
-console.log(range(-10, 10, 2).length)
-console.log(range(10, 100, 3).length)
-console.log(range(-100, 310, 7).length)
-console.log(range(11, 410, 13).length)
-// => 11
-// => 31
-// => 59
-// => 31
-// => 10000001
+rangePromise(0, 10000000).then(list => list.length).then(console.log) // 100000001
+range(-5, 5, 2)     // [-5,-3,-1,1,3,5]
+range(10, 18, 3)    // [10,13,16]
+range(5)            // [0,1,2,3,4,5]
+range(10, 100, 10)  // [10,20,30,40,50,60,70,80,90,100]
 ```
 ## License
 MIT, see [LICENSE.md](http://github.com/endziu/range-of-numbers/blob/master/LICENSE.md) for details.
